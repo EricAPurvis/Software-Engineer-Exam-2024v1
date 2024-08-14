@@ -23,3 +23,5 @@ Author Notes:
 
 ### Website Preview
 ![](https://github.com/EricAPurvis/Software-Engineer-Exam-2024v1/blob/main/Website-Example-Images/Image1.png)
+![](https://github.com/EricAPurvis/Software-Engineer-Exam-2024v1/blob/main/Website-Example-Images/Image2.png)
+![](https://github.com/EricAPurvis/Software-Engineer-Exam-2024v1/blob/main/Website-Example-Images/Image3.png)
