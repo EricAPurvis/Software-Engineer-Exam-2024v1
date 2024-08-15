@@ -141,8 +141,7 @@ body{
 	display: flex;
 	align-items: center;
 	text-align: left;
-	margin:auto;
-	margin-left:25px;
+	margin-left:15px;
 }
 
 .col img{
@@ -154,7 +153,3 @@ body{
 	font-size: 28px;
 	margin-top: 6px;
 }
-
-.weather{
-	display:block;
-{
