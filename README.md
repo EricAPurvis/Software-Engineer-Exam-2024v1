@@ -21,8 +21,8 @@ Tokyo, Yokohama, Kyoto, Osaka, Sapporo, Nagoya
 	
 ### Author Notes:
 	Weather app exam -
-	requirement 1: Forecast data for the select 6 Japanese cities (Tokyo, Yokohama, Kyoto, Osaka, Sapporo, Nagoya) works as intended and in a timely manner.
-	requirement 2: foursquare was not working/cooperating, so I opted to use geoapify instead. The geoapify API does work as intended for finding commerical locations of interst, but loads rather slowly in comparison to the rest of the system.
+	Requirement 1: Forecast data for the select 6 Japanese cities (Tokyo, Yokohama, Kyoto, Osaka, Sapporo, Nagoya) works as intended and in a timely manner.
+	Requirement 2: Foursquare was not working/cooperating, so I opted to use geoapify instead. The geoapify API does work as intended for finding commerical locations of interst, but loads rather slowly in comparison to the rest of the system.
 
 ### Desktop Website Preview
 ![](https://github.com/EricAPurvis/Software-Engineer-Exam-2024v1/blob/main/Website-Example-Images/Image1.png)
