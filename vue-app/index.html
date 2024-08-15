@@ -16,83 +16,82 @@ Author: Eric Purvis
   </head>
   
   <body>
-		<div class="everything">
+    <div class="everything">
 		
-			<div class="card">
-				
-				<div class="search">
+	  <div class="card">
+	  
+	    <div class="search">
 
-					<div class="form-floating mb-12">
-						<select class="form-select" id="city">
-							<option>Tokyo</option>
-							<option>Yokohama</option>
-							<option>Kyoto</option>
-							<option>Osaka</option>
-							<option>Sapporo</option>
-							<option>Nagoya</option>
-						</select>
-						<label id="cityLabel" for="city">City:</label>
-					</div>
+		  <div class="form-floating mb-12">
+		    <select class="form-select" id="city">
+			  <option>Tokyo</option>
+			  <option>Yokohama</option>
+			  <option>Kyoto</option>
+			  <option>Osaka</option>
+			  <option>Sapporo</option>
+			  <option>Nagoya</option>
+		    </select>
+		    <label id="cityLabel" for="city">City:</label>
+		  </div>
 						
-					<div class="form-floating mb-12">
-						<select class="form-select" id="units">
-							<option>Metric</option>
-							<option>Imperial</option>
-						</select>
-						<label id="unitsLabel" for="units">Units:</label>
-					</div>
-			
-				</div>
-					
-				<div class="weather">
-					<div class="row-sm-3">
-						<button v-on:click="updateWeather()"><img src="images/search.png"></button>
-					</div>
-					<div class="row-sm-12">
-						<img src="images/rain.png" class="weather-icon">
-						<h1 class="temp">{{temp}}{{tempUnits}}</h1>
-						<h2 class="city">{{city}}</h2>
-						<div class="row-sm-12">
-							<div class="details">
-								<div class="col">
-									<img src="images/humidity.png">
-									<div>
-										<p class="humidity">{{humidity}}%</p>
-										<p>Humidity</p>
-									</div>
-								</div>
-								<div class="col">
-									<img src="images/wind.png">
-									<div>
-										<p class="wind">{{windSpeed}} {{speedUnits}}</p>
-										<p>Wind Speed</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-					
-			</div>
-			
-
-			<div class="card">
-				<p class="poiText">Points of Interest</p>
-				<button type="button" class="btn btn-primary" v-if="poiData[0+(currentPage-1)*pagination]!=undefined" v-on:click="googleMaps(0+(currentPage-1)*pagination)">{{poiData[0+(currentPage-1)*pagination]}}</button>
-				<button type="button" class="btn btn-primary" v-if="poiData[1+(currentPage-1)*pagination]!=undefined" v-on:click="googleMaps(1+(currentPage-1)*pagination)">{{poiData[1+(currentPage-1)*pagination]}}</button>
-				<button type="button" class="btn btn-primary" v-if="poiData[2+(currentPage-1)*pagination]!=undefined" v-on:click="googleMaps(2+(currentPage-1)*pagination)">{{poiData[2+(currentPage-1)*pagination]}}</button>
-				<button type="button" class="btn btn-primary" v-if="poiData[3+(currentPage-1)*pagination]!=undefined" v-on:click="googleMaps(3+(currentPage-1)*pagination)">{{poiData[3+(currentPage-1)*pagination]}}</button>
-				<button type="button" class="btn btn-primary" v-if="poiData[4+(currentPage-1)*pagination]!=undefined" v-on:click="googleMaps(4+(currentPage-1)*pagination)">{{poiData[4+(currentPage-1)*pagination]}}</button>
-				<div class="row-sm-12" id="pagination">
-					<button type="button" class="bttn btn-primary" v-on:click="movePage(-1)">Back</button>
-					<p class="page">{{currentPage}}/{{maxPage}}</p>
-					<button type="button" class="bttn btn-primary" v-on:click="movePage(1)">Next</button>
-
-				</div>
-			</div>
-
+		  <div class="form-floating mb-12">
+		    <select class="form-select" id="units">
+			  <option>Metric</option>
+			  <option>Imperial</option>
+			</select>
+			<label id="unitsLabel" for="units">Units:</label>
+		  </div>
 			
 		</div>
+					
+		<div class="weather">
+		  <div class="row-sm-3">
+		    <button v-on:click="updateWeather()"><img src="images/search.png"></button>
+		  </div>
+		  <div class="row-sm-12">
+		    <img src="images/rain.png" class="weather-icon">
+			<h1 class="temp">{{temp}}{{tempUnits}}</h1>
+			<h2 class="city">{{city}}</h2>
+			<div class="row-sm-12">
+			  <div class="details">
+			    <div class="col">
+			      <img src="images/humidity.png">
+			      <div>
+				    <p class="humidity">{{humidity}}%</p>
+				    <p>Humidity</p>
+			  	  </div>
+			    </div>
+			    <div class="col">
+			      <img src="images/wind.png">
+			      <div>
+				    <p class="wind">{{windSpeed}} {{speedUnits}}</p>
+				    <p>Wind Speed</p>
+			      </div>
+			    </div>
+		      </div>
+		    </div>
+	      </div>
+		</div>
+		
+	  </div>
+			
+
+	  <div class="card">
+		<p class="poiText">Points of Interest</p>
+		<button type="button" class="btn btn-primary" v-if="poiData[0+(currentPage-1)*pagination]!=undefined" v-on:click="googleMaps(0+(currentPage-1)*pagination)">{{poiData[0+(currentPage-1)*pagination]}}</button>
+		<button type="button" class="btn btn-primary" v-if="poiData[1+(currentPage-1)*pagination]!=undefined" v-on:click="googleMaps(1+(currentPage-1)*pagination)">{{poiData[1+(currentPage-1)*pagination]}}</button>
+		<button type="button" class="btn btn-primary" v-if="poiData[2+(currentPage-1)*pagination]!=undefined" v-on:click="googleMaps(2+(currentPage-1)*pagination)">{{poiData[2+(currentPage-1)*pagination]}}</button>
+		<button type="button" class="btn btn-primary" v-if="poiData[3+(currentPage-1)*pagination]!=undefined" v-on:click="googleMaps(3+(currentPage-1)*pagination)">{{poiData[3+(currentPage-1)*pagination]}}</button>
+		<button type="button" class="btn btn-primary" v-if="poiData[4+(currentPage-1)*pagination]!=undefined" v-on:click="googleMaps(4+(currentPage-1)*pagination)">{{poiData[4+(currentPage-1)*pagination]}}</button>
+		<div class="row-sm-12" id="pagination">
+		  <button type="button" class="btn2 btn-primary" v-on:click="movePage(-1)">Back</button>
+	      <p class="page">{{currentPage}}/{{maxPage}}</p>
+		  <button type="button" class="btn2 btn-primary" v-on:click="movePage(1)">Next</button>
+		</div>
+	  </div>
+
+			
+	</div>
 		
   </body>
   
