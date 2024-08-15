@@ -11,7 +11,7 @@ Please create a simple information web app for tourists. You can use Laravel wit
 
 ### Background:
 This page aims to provide travel information of Japan for foreign tourists visiting Japan for the first time.
-The traveller has the possibility of going to the following cities.<br />
+The traveller has the possibility of going to the following cities.
 Tokyo, Yokohama, Kyoto, Osaka, Sapporo, Nagoya
 
 ### Why my UI & UX implementation and code are the best:
