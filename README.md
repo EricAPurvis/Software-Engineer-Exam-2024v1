@@ -3,6 +3,9 @@
  
 ### Author: Eric Purvis
  
+ ### Website Demo
+https://software-engineer-exam-2024v1.netlify.app/vue-app/
+ 
 ### Weather app exam:
 Please create a simple information web app for tourists. You can use Laravel with VueJS or OOP PHP + JavaScript framework (jQuery/ES6/ES5)
 
@@ -25,6 +28,3 @@ Tokyo, Yokohama, Kyoto, Osaka, Sapporo, Nagoya
 ![](https://github.com/EricAPurvis/Software-Engineer-Exam-2024v1/blob/main/Website-Example-Images/Image1.png)
 ![](https://github.com/EricAPurvis/Software-Engineer-Exam-2024v1/blob/main/Website-Example-Images/Image2.png)
 ![](https://github.com/EricAPurvis/Software-Engineer-Exam-2024v1/blob/main/Website-Example-Images/Image3.png)
-
-### Website Demo
-https://software-engineer-exam-2024v1.netlify.app/vue-app/
