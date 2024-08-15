@@ -29,7 +29,6 @@ body{
 	max-width:300px;
 	min-height:60px;
 	max-height:60px;
-	margin:auto;
 	margin-top:10px;
 	background: linear-gradient(120deg, rgb(0, 100, 0, 0.9), rgb(0,200,0,0.9));
 }
@@ -40,7 +39,7 @@ body{
 	min-height:35px;
 	margin-top:20px;
 	margin-left:49px;
-	margin-right:50px;
+	margin-right:49px;
 	color: white;
 	background: linear-gradient(150deg, rgb(0, 100, 0, 0.9), rgb(0,200,0,0.9));
 	border-radius:7px;
