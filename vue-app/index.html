@@ -83,7 +83,7 @@ Author: Eric Purvis
 				<button type="button" class="btn btn-primary" v-if="poiData[2+(currentPage-1)*pagination]!=undefined" v-on:click="googleMaps(2+(currentPage-1)*pagination)">{{poiData[2+(currentPage-1)*pagination]}}</button>
 				<button type="button" class="btn btn-primary" v-if="poiData[3+(currentPage-1)*pagination]!=undefined" v-on:click="googleMaps(3+(currentPage-1)*pagination)">{{poiData[3+(currentPage-1)*pagination]}}</button>
 				<button type="button" class="btn btn-primary" v-if="poiData[4+(currentPage-1)*pagination]!=undefined" v-on:click="googleMaps(4+(currentPage-1)*pagination)">{{poiData[4+(currentPage-1)*pagination]}}</button>
-				<div class="row-sm-12" id="test">
+				<div class="row-sm-12" id="pagination">
 					<button type="button" class="bttn btn-primary" v-on:click="movePage(-1)">Back</button>
 					<p class="page">{{currentPage}}/{{maxPage}}</p>
 					<button type="button" class="bttn btn-primary" v-on:click="movePage(1)">Next</button>
