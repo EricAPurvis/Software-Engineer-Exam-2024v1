@@ -16,7 +16,7 @@ Tokyo, Yokohama, Kyoto, Osaka, Sapporo, Nagoya
 
 ### Why my UI & UX implementation and code are the best:
 	UI: Stunning visuals, very pleasent to look at, conforms for mobile use, and can still be used visually on a computer.
-	UX: With easy to use dropdown selections and simple button usage the user will find it very easy and relaxing to use.
+	UX: With easy to use dropdown selections and simple button usage. The user will find very easy and relaxing to use.
 	Code: Using VueJS, Javascript, HTML and CSS the webpage is very responsive and reactive. The code itself is written and held within their own appropriate files to be linked/used by the html page.
 	
 ### Author Notes:
