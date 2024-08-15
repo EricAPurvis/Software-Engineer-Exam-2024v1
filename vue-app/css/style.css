@@ -38,8 +38,8 @@ body{
 	max-width:100px;
 	min-height:35px;
 	margin-top:20px;
-	margin-left:49px;
-	margin-right:49px;
+	margin-left:30px;
+	margin-right:30px;
 	color: white;
 	background: linear-gradient(150deg, rgb(0, 100, 0, 0.9), rgb(0,200,0,0.9));
 	border-radius:7px;
@@ -54,8 +54,6 @@ body{
 	background: linear-gradient(120deg, rgb(0, 150, 0, 0.9), rgb(0,200,0,0.9));
 	min-width:300px;
 	max-width:300px;
-
-	margin-bottom:10px;
 	border-radius:20px;
 }
 
@@ -67,9 +65,13 @@ body{
 	background: linear-gradient(120deg, rgb(0, 150, 0, 0.9), rgb(0,200,0,0.9));
 	min-width:70px;
 	max-width:70px;
-	margin:auto;
-	margin-top:-30px;
+	margin-top:35px;
 	border-radius:20px;
+}
+
+#test{
+	display: flex;
+	align-items: center;
 }
 
 .search{
